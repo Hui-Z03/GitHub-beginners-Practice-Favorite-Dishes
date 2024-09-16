@@ -55,10 +55,10 @@ Instructions
 修改 favorite_dishes.py
 在文本编辑器中打开 favorite_dishes.py 文件。
 在文件末尾添加：
-···
+
 print('Your Favorite Dish')
-# Your Name
-···
+"# Your Name"
+
 将 'Your Favorite Dish' 替换为您最喜爱的菜名
 将 Your Name 替换为您的名字
 
