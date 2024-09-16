@@ -11,8 +11,11 @@ Instructions
     Click the "Fork" button in the upper right corner to create a copy of the repository in your own GitHub account.
 2. Clone the forked repository to your local computer
     Go to your GitHub account, open the forked repository, click on the green "code" button and then click the copy to clipboard icon.
-    Open a terminal and run the following git command: git clone "url you just copied"
-3. Add Your Favorite Dish
+    Open a terminal and run the following git command:
+    ```
+    git clone "url you just copied"
+    ```
+4. Add Your Favorite Dish
     Navigate to the project directory:
    ```bash
    cd favorite-dishes
@@ -28,19 +31,19 @@ Instructions
    # Your Name
    ```
    Replace 'Your Favorite Dish' with the name of your favorite dish. Replace Your Name with your actual name.
-5. Commit and Push Your Changes
+6. Commit and Push Your Changes
    ```bash
    git add favorite_dishes.py
    ```
    ```bash
    git commit -m "Add favorite dish by Your Name"
    ```
-6. Push changes to GitHub
+7. Push changes to GitHub
    Push your changes using the command git push:
    ```bash
    git push -u origin your-branch-name
    ```
-7. Submit your changes for review
+8. Submit your changes for review
    go to your repository on GitHub, you'll see a "Compare & pull request" button. Click on that button.
     Then submit the pull request
 I'll be merging all your changes into the main branch of this project. You will get a notification email once the changes have been merged.
