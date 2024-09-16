@@ -42,7 +42,7 @@ Instructions
    ```
 7. Submit your changes for review
    go to your repository on GitHub, you'll see a "Compare & pull request" button. Click on that button.
-   Then submit the pull request
+    Then submit the pull request
 I'll be merging all your changes into the main branch of this project. You will get a notification email once the changes have been merged.
 
 
@@ -60,28 +60,41 @@ I'll be merging all your changes into the main branch of this project. You will 
 进入您的 GitHub 账户，打开您 Fork 的仓库。
 点击绿色的 "Code" 按钮，然后点击复制到剪贴板的图标。
 
-打开终端，运行以下 git 命令： git clone "您刚刚复制的 URL"
-
+打开终端，运行以下 git 命令： 
+```
+git clone "您刚刚复制的 URL"
+```
 3. 添加您最喜爱的菜肴
-进入项目目录：cd favorite-dishes
-使用 git switch 命令创建一个新分支：git switch -c your-new-branch-name
+进入项目目录：
+```
+cd favorite-dishes
+```
+使用 git switch 命令创建一个新分支：
+```
+git switch -c your-new-branch-name
+```
 修改 favorite_dishes.py
 在文本编辑器中打开 favorite_dishes.py 文件。
 在文件末尾添加：
-
+```python
 print('Your Favorite Dish')
-"# Your Name"
-
+# Your Name
+```
 将 'Your Favorite Dish' 替换为您最喜爱的菜名
 将 Your Name 替换为您的名字
 
 4. 提交并推送您的更改
+```
 git add favorite_dishes.py
+```
+```
 git commit -m "Add favorite dish by Your Name"
-
+```
 5. 将更改推送到 GitHub
-使用以下命令推送您的更改：git push -u origin your-branch-name
-
+使用以下命令推送您的更改：
+```
+git push -u origin your-branch-name
+```
 6. 提交您的更改以供审核
 前往您在 GitHub 上的仓库，您会看到一个 "Compare & pull request" 按钮。点击它。
 提交 pull request。
