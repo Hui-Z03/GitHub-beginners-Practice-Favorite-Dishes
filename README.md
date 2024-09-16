@@ -18,7 +18,7 @@ Instructions
 4. Add Your Favorite Dish
     Navigate to the project directory:
    ```bash
-   cd favorite-dishes
+   cd GitHub-beginners-Practice-Favorite-Dishes
    ```
    Create a branch using the git switch command:
    ```bash
@@ -70,7 +70,7 @@ git clone "您刚刚复制的 URL"
 3. 添加您最喜爱的菜肴
 进入项目目录：
 ```
-cd favorite-dishes
+cd GitHub-beginners-Practice-Favorite-Dishes
 ```
 使用 git switch 命令创建一个新分支：
 ```
