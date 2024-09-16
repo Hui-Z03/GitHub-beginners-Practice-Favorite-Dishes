@@ -13,24 +13,37 @@ Instructions
     Go to your GitHub account, open the forked repository, click on the green "code" button and then click the copy to clipboard icon.
     Open a terminal and run the following git command: git clone "url you just copied"
 3. Add Your Favorite Dish
-    Navigate to the project directory: cd favorite-dishes
-    Create a branch using the git switch command: git switch -c your-new-branch-name
+    Navigate to the project directory:
+   ```bash
+   cd favorite-dishes
+   ```
+   Create a branch using the git switch command:
+   ```bash
+   git switch -c your-new-branch-name
+   ```
    Make changes to "favorite_dishes.py"
     Open the favorite_dishes.py file in a text editor. At the end of the file, add:
-   ```
+   ```python
    print('Your Favorite Dish')
    # Your Name
    ```
    Replace 'Your Favorite Dish' with the name of your favorite dish. Replace Your Name with your actual name.
-4. Commit and Push Your Changes
+5. Commit and Push Your Changes
+   ```bash
    git add favorite_dishes.py
+   ```
+   ```bash
    git commit -m "Add favorite dish by Your Name"
-5. Push changes to GitHub
-   Push your changes using the command git push: git push -u origin your-branch-name
-6. Submit your changes for review
-   go to your repository on GitHub, you'll see a Compare & pull request button. Click on that button.
-   submit the pull request.
-    I'll be merging all your changes into the main branch of this project. You will get a notification email once the changes have been merged.
+   ```
+6. Push changes to GitHub
+   Push your changes using the command git push:
+   ```bash
+   git push -u origin your-branch-name
+   ```
+7. Submit your changes for review
+   go to your repository on GitHub, you'll see a "Compare & pull request" button. Click on that button.
+   Then submit the pull request
+I'll be merging all your changes into the main branch of this project. You will get a notification email once the changes have been merged.
 
 
 初学者练习 Git 和 GitHub
